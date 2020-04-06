@@ -143,5 +143,5 @@ if __name__ == '__main__':
             else:
                 df2.at[df2.index[i],column[j]] = dic[int(j/2)][0]
     #####################################################################
-    
+    #df2.to_csv("access_log_ana_result.csv")
     print(df2)
